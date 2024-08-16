@@ -23,6 +23,8 @@ export default function Home () {
         <img src="https://lojavivara.vtexassets.com/unsafe/fit-in/1920x768/center/middle/https%3A%2F%2Flojavivara.vtexassets.com%2Fassets%2Fvtex.file-manager-graphql%2Fimages%2F6e1c3acc-3caa-4ba0-8107-bfe410117d74___f027c424fe1b21c89847d08dd08af487.png"></img>
         </div>
         </Carousel>
+        <h1>JOIAS VIVARA</h1>
+        <h2>Eternize momentos</h2>
      </>
   );
 }
