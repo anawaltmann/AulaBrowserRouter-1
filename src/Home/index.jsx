@@ -6,7 +6,7 @@ export default function Home () {
     return (
         <>
         <Header/>
-        <h1>Home</h1>
+        <h1>VIVARA</h1>
         <Carousel
          infiniteLoop
          useKeyboardArrows
@@ -24,7 +24,22 @@ export default function Home () {
         </div>
         </Carousel>
         <h1>JOIAS VIVARA</h1>
+
         <h2>Eternize momentos</h2>
+
+        <div>
+        <img src="https://lojavivara.vtexassets.com/assets/vtex.file-manager-graphql/images/ec84f601-0218-4d84-80e7-142c9bf76738___e9904f00ee4307b4af170bc839c793a3.png"></img>
+      
+      <h1>ESCOLHA POR VALOR</h1>
+      <h4>NOVAS JOIAS PARA TODOS</h4>
+        </div>
+        
+        <footer>
+  <div class="footer">
+    </div>
+    <div class="footer-content">
+    </div>
+</footer>
      </>
   );
 }

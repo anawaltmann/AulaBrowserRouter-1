@@ -1,5 +1,5 @@
 header{
-    background-color: #E3916E;
+    background-color: #f5c8f5;
     height: 30px;
     display: flex;
     justify-content: center;
@@ -24,7 +24,29 @@ h2 {
     justify-content: center;
 }
 
-.medium-img {
-    width: 200px;
+img{
     height: auto;
+    width: 1346px;
 }
+
+image{
+    align-items: center;
+}
+
+.galeria-imagens {
+ 
+}
+
+h4{
+    color: grey; 
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #f5c8f5; 
+    height: 100px;
+    padding: 20px;
+    justify-content: center;
+}
+
