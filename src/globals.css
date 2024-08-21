@@ -3,9 +3,16 @@ header{
     height: 30px;
     display: flex;
     justify-content: center;
-    gap: 500px;
+    gap: 200px;
     
-    
+
+}
+header li{
+    color: black;
+}
+
+header a{
+    text-decoration: none;
 }
 
 li{
@@ -49,4 +56,11 @@ h4{
     padding: 20px;
     justify-content: center;
 }
+
+.galeria-imagens {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
 
