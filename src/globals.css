@@ -40,10 +40,6 @@ image{
     align-items: center;
 }
 
-.galeria-imagens {
- 
-}
-
 h4{
     color: grey; 
     display: flex;
@@ -51,16 +47,104 @@ h4{
 }
 
 .footer {
-    background-color: #f5c8f5; 
-    height: 100px;
+    background-color: #f5c8f5;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
     padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 10px;
+    min-width: 200px;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .footer-section p, .footer-section ul, .footer-section li, .footer-section a {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: 12px;
+  }
+  
+  .product-list {
+    display: flex; /* Alinha os itens em uma linha */
+    flex-wrap: wrap; /* Permite que os itens quebrem para uma nova linha se o espaço não for suficiente */
+    gap: 20px; /* Adiciona espaço entre os itens */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+  }
+  
+  .product-item {
+    text-align: center; /* Centraliza o texto dentro de cada item */
+    flex: 1 1 200px; /* Define a largura mínima dos itens e permite que eles cresçam ou encolham */
+    max-width: 180px; /* Limita a largura máxima dos itens */
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 20px;
+  }
+  
+  .product-item img {
+    max-width: 50%;
+    height: auto;
+  }
+
+  .galeria-imagens {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha se necessário */
+    gap: 16px; /* Espaçamento entre os itens */
+    justify-content: center; /* Centraliza os itens dentro da galeria */
+  }
+
+  img{
+    height: auto;
+    width: 1246px;
+}
+
+.pagina-produtos .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-content: center;
 }
 
-.galeria-imagens {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-  }
+.pagina-produtos .product-item {
+    text-align: center;
+    flex: 1 1 200px;
+    max-width: 180px;
+    margin-bottom: 20px;
+}
+
+.pagina-produtos .product-item img {
+    max-width: 50%;
+    height: auto;
+}
+
 

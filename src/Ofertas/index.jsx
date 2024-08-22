@@ -24,9 +24,9 @@ export default function Ofertas(){
         imagem: "https://lojavivara.vtexassets.com/arquivos/ids/851190/Anel-Gold-em-Ouro-Amarelo-18k-com-Perola-4-45mm-80991_1_set.jpg?v=638484600560800000" 
     },
     { 
-        title: "Pingente Menino em Ouro Amarelo 18k com Safiras Azuis", 
-        preco: "R$ 1.390,00", 
-        imagem: "https://lojavivara.vtexassets.com/arquivos/ids/863735/Pingente-Menino-em-Ouro-Amarelo-18k-com-Safiras-Azuis-18585_1_set.jpg?v=638519116897370000" 
+        title: "Anel Spring em Prata 925 com Topázios London, Topázios Sky e Safiras Incolores", 
+        preco: "R$ 690,00", 
+        imagem: "https://lojavivara.vtexassets.com/arquivos/ids/749312/Anel-Spring-em-Prata-925-com-Topazios-London-Topazios-Sky-e-Safiras-Incolores-83395_1_set.jpg?v=638437293564070000" 
     },
     { 
         title: "Brinco Vivara em Prata 925", 
@@ -44,14 +44,14 @@ export default function Ofertas(){
         imagem: "https://lojavivara.vtexassets.com/arquivos/ids/841324/Pingente-Vivara-em-Prata-925-com-Quartzo-Leitoso-e-Safiras-Negras-20879_1_set.jpg?v=638470855312830000" 
     },
     { 
-        title: "", 
-        preco: "R$  590,00", 
-        imagem: "" 
+        title: "Pingente Color em Prata 925 com Ametista Rosa e Topázio Rosa", 
+        preco: "R$  190,00", 
+        imagem: "https://lojavivara.vtexassets.com/arquivos/ids/886324/Pingente-Color-em-Prata-925-com-Ametista-Rosa-e-Topazio-Rosa-100395_1_set.jpg?v=638597709415830000" 
     },
     { 
-        title: "", 
-        preco: "R$  590,00", 
-        imagem: "" 
+        title: "Colar Happy em Prata 925 com Pérola e Peridoto, 45cm", 
+        preco: "R$  550,00", 
+        imagem: "https://lojavivara.vtexassets.com/arquivos/ids/795827/Colar-Happy-em-Prata-925-com-Perola-e-Peridoto-45cm-85760_1_set.jpg?v=638457556921070000" 
     },
 
 

@@ -5,12 +5,12 @@ import CardProdutos from "../components/CardProdutos";
 export default function Produto() {
 
     const [lista, setLista] = useState([
-    
         { 
             title: "Anel Vivara em Ouro Amarelo 18k com Diamantes", 
             preco: "R$ 3.720,00", 
             imagem: "https://lojavivara.vtexassets.com/arquivos/ids/745172/Anel-Vivara-em-Ouro-Amarelo-18k-com-Diamantes-8689_1_set.jpg?v=638437289332230000" 
         },
+        
         { 
             title: "Anel Vivara em Ouro Branco 18k com Diamantes", 
             preco: "R$ 3.512,00", 
@@ -111,20 +111,34 @@ export default function Produto() {
             preco: "R$  790,00", 
             imagem: "https://lojavivara.vtexassets.com/arquivos/ids/812202/Pingente-Opera-em-Prata-925-com-Ouro-Amarelo-18k-94819_1_set.jpg?v=638466391324200000" 
         },
+        { 
+            title: "Colar Happy em Prata 925 com Pérola e Peridoto, 45cm", 
+            preco: "R$  550,00", 
+            imagem: "https://lojavivara.vtexassets.com/arquivos/ids/795827/Colar-Happy-em-Prata-925-com-Perola-e-Peridoto-45cm-85760_1_set.jpg?v=638457556921070000" 
+        },
+        { 
+            title: "Pingente Color em Prata 925 com Ametista Rosa e Topázio Rosa", 
+            preco: "R$  190,00", 
+            imagem: "https://lojavivara.vtexassets.com/arquivos/ids/886324/Pingente-Color-em-Prata-925-com-Ametista-Rosa-e-Topazio-Rosa-100395_1_set.jpg?v=638597709415830000" 
+        },
+        { 
+            title: "Anel Spring em Prata 925 com Topázios London, Topázios Sky e Safiras Incolores", 
+            preco: "R$ 690,00", 
+            imagem: "https://lojavivara.vtexassets.com/arquivos/ids/749312/Anel-Spring-em-Prata-925-com-Topazios-London-Topazios-Sky-e-Safiras-Incolores-83395_1_set.jpg?v=638437293564070000" 
+        },
+
+
 
     
     ]);
     
 
     return (
-       
-        <div>
-            <Header />
-            <h1>Produtos</h1>
-            <CardProdutos listaProdutos={lista} />
-
-            <div className="galeria-imagens"></div>
-                </div>
+        <div className="pagina-produtos">
+        <Header />
+        <h1>Produtos</h1>
+        <CardProdutos listaProdutos={lista} />
+    </div>
         
     );
 }
