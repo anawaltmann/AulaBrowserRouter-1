@@ -128,23 +128,11 @@ h4{
     width: 1246px;
 }
 
-.pagina-produtos .product-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+.card-image{
+  height: 10%;
+  width: 10%;
 }
 
-.pagina-produtos .product-item {
-    text-align: center;
-    flex: 1 1 200px;
-    max-width: 180px;
-    margin-bottom: 20px;
+.container{
+  display: flex;
 }
-
-.pagina-produtos .product-item img {
-    max-width: 50%;
-    height: auto;
-}
-
-

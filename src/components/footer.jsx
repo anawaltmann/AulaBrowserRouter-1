@@ -7,10 +7,7 @@
     <div className="footer-section links">
       <h3>Links Úteis</h3>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Produtos</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Contato</a></li>
+      <li><a href="#">https://l1nq.com/BwEC3</a></li>
       </ul>
     </div>
     <div className="footer-section contact">
